@@ -1,0 +1,110 @@
+.navbarone{
+    visibility:visible;
+}
+
+.dropdownmenu{
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+
+.overlaycontent{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size:x-large;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+
+
+.overlay li{
+    list-style: none;
+}
+
+.overlay{
+    position: fixed;
+    top: 0px;
+  }
+
+.overlaybefore{
+    display: none;
+}
+
+.closebtn{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transition-duration: 0.4s;
+    
+}
+
+.btn.btn-danger{
+    border: 2px solid #dc4c64;
+}
+
+.btn.btn-danger:hover{
+    background: rgba(220, 76, 100, 0.7);
+    display:inline-block;
+    transition-duration: 0.4s;
+    border: 2px solid #dc4c64;
+}
+
+.btn.btn-primary{
+    border: 2px solid #3b71ca;
+}
+
+.btn.btn-primary:hover{
+    background: rgba(59, 113, 202, 0.7);
+    display:inline-block;
+    transition-duration: 0.4s;
+    border: 2px solid #3b71ca;
+}
+
+.bg-primary{
+    background-color: white;
+}
+
+.buttons:hover{
+    background-color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .navbarone{
+        display: none;
+    }
+
+    .dropdownmenu{
+        color: white;
+        display: block;
+    }
+
+    .overlay{
+        width: 100%;
+    }   
+
+}
+

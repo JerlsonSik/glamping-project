@@ -1,0 +1,44 @@
+.RoomBannerFour .carousel-item img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.RoomBannerFour .carousel-item{
+    height: 400px;
+}
+
+.RoomBannerThree .carousel-item img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.RoomBannerThree .carousel-item{
+    height: 400px;
+}
+
+.RoomBannerFour .moredetails{
+    text-decoration: none;
+    color:#565e64;
+
+}
+
+.RoomBannerFour .moredetails:hover{
+    text-decoration: underline;
+    color:#565e64;
+
+}
+
+.RoomBannerThree .moredetails{
+    text-decoration: none;
+    color:#565e64;
+
+}
+
+.RoomBannerThree .moredetails:hover{
+    text-decoration: underline;
+    color:#565e64;
+
+}
+
