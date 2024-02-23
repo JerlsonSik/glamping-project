@@ -8,13 +8,14 @@ const SiteBannerSix = () => {
                 <i class="fas fa-times fa-2x colorbtn" aria-hidden="true" ></i>
                 </button>
             </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div className="align-self-center">
+            <div id="carouselExampleControls" class="carousel slide align-self-center" data-bs-ride="carousel">
                         <div class="carousel-inner text-center">
                             <div class="carousel-item active">
-                                <img class="w-50 h-25" src="./sample-image.jpg" alt="First slide"/>
+                                <img class="w-50" src="./sample-image.jpg" alt="First slide"/>
                             </div>
                             <div class="carousel-item active">
-                                <img class="w-50 h-25" src="./glamping-three.jpg" alt="Second slide"/>
+                                <img class="w-50" src="./glamping-three.jpg" alt="Second slide"/>
                             </div>
                             
                         </div>
@@ -26,6 +27,7 @@ const SiteBannerSix = () => {
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
+                    </div>
                     </div>
         </div>
             

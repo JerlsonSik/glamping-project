@@ -13,6 +13,7 @@ const Site = () => {
             <NavSite />
             <SiteBannerFive />
             <SiteBannerFour />
+            <SiteBannerSix />
             <SiteBannerThree />         
         </>
 
