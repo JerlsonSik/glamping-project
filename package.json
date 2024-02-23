@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "home":"https://github.com/JerlsonSik/glamping.git",
+  "home":"https://JerlsonSik.github.io/glamping",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@mobiscroll/react": "npm:@mobiscroll/react-trial@^5.28.1",
