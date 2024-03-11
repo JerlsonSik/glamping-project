@@ -9,7 +9,7 @@ const About = () => {
         <>
             <NavAbout />
             <AboutBannerThree />
-            
+
             <Map />
         </>
      );

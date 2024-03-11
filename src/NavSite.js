@@ -17,7 +17,9 @@ const NavSite = () => {
 
         else {
             setStyle("overlaybefore")
-            console.log("overlaybefore")}
+            console.log("overlaybefore")
+            
+        }
     }
 
     return ( 
