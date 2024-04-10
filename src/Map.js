@@ -2,7 +2,7 @@
 
 const MapStyle = {
     width: "100%",
-    height: 500
+    height: 200
   };
 
 const Map = () => {

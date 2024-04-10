@@ -28,6 +28,9 @@ function App() {
         <Route path="/book" element={<Book/>}></Route>
         <Route path="/addon" element={<AddOn/>}></Route>
         <Route path="/roomone" element={<RoomDetails/>}></Route>
+        <Route path="/cooperlake" element={<Site/>}></Route>
+        <Route path="/booksite" element={<Accomodation/>}></Route>
+        
       </Routes>
     </div>
 

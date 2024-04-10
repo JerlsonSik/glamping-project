@@ -8,16 +8,15 @@ import HomeBannerSeven from './HomeBannerSeven';
 import Nav from "./Nav";
 import HomeBannerEight from './HomeBannerEight';
 import HomeBannerNine from './HomeBannerNine';
+import HomeBannerTen from './HomeBannerTen'
 const Home = () => {
     return ( 
         <div>
             <Nav />
-            <HomeBannerTwo/>
-            <HomeBannerNine />
             <HomeBannerEight />
-            <HomeBannerFour />
+            <HomeBannerTen />
             <HomeBannerFive />
-
+            
         </div>
      );
 }

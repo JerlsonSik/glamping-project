@@ -4,6 +4,8 @@ import RoomBannerFive from './RoomBannerFive';
 import RoomBannerFour from './RoomBannerFour';
 import RoomBannerThree from './RoomBannerThree';
 import RoomBannerTwo from './RoomBannerTwo';
+import RoomBannerSix from './RoomBannerSix';
+import RoomBannerSeven from './RoomBannerSeven';
 const Accomodation = () => {
     return ( 
         <>
@@ -11,6 +13,8 @@ const Accomodation = () => {
             <RoomBannerFive />
             <RoomBannerThree />
             <RoomBannerFour />
+            <RoomBannerSix />
+            <RoomBannerSeven />
             
         </>
      );

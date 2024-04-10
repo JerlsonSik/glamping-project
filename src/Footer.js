@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import Map from './Map';
 
 const Footer = () => {
     return ( 
@@ -10,10 +11,10 @@ const Footer = () => {
       </div>
 
       <div>
-        <a href='' className='me-4 text-reset'>
+        {/* <a href='' className='me-4 text-reset'>
           <MDBIcon fab icon="facebook-f" />
-        </a>
-        <a href='' className='me-4 text-reset'>
+        </a> */}
+        <a href='https://www.tiktok.com/@thehideawaycooperlake' className='me-4 text-reset'>
           <MDBIcon fab icon="tiktok" />
         </a>
         <a href='https://www.instagram.com/thehideawaycooperlake/' className='me-4 text-reset'>
@@ -33,10 +34,10 @@ const Footer = () => {
               <MDBIcon icon="gem" className="me-3" />
               Cooper Lake
             </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit.
-            </p>
+            {/* <p>
+            Escape the unexpected at one of our three private glamping sites. Nestled on our sprawling, private property, the Hideaway at Cooper Lake is just an hour drive from Chicago or twenty minutes from Valparaiso. Camp in style or host your next private event!
+            </p> */}
+            <Map />
           </MDBCol>
 
           <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
@@ -47,18 +48,13 @@ const Footer = () => {
               </a>
             </p>
             <p>
-              <a href='/accommodation' className='text-reset'>
-                Accommodation
+              <a href='/cooperlake' className='text-reset'>
+                Cooper Lake
               </a>
             </p>
             <p>
-              <a href='/site' className='text-reset'>
-                Site
-              </a>
-            </p>
-            <p>
-              <a href='/about' className='text-reset'>
-                About Us
+              <a href='/booksite' className='text-reset'>
+                Book Now
               </a>
             </p>
           </MDBCol>
@@ -66,8 +62,8 @@ const Footer = () => {
           <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
             <p>
-              <a href='https://booking.smoobu.com/9A749585' className='text-reset'>
-                Book With Us
+              <a href='/booksite' className='text-reset'>
+                Book Now
               </a>
             </p>
             <p>
@@ -92,10 +88,6 @@ const Footer = () => {
               <MDBIcon icon="envelope" className="me-3" />
               natalie@leeandforbesprovisions.com 
             </p>
-            <p>
-              <MDBIcon icon="phone" className="me-3" /> 
-              +1 219-405-8435
-            </p>
             
           </MDBCol>
         </MDBRow>
@@ -103,9 +95,9 @@ const Footer = () => {
     </section>
 
     <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-      © 2024 Copyright:
+      © 2024 Copyright: 
       <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-        Natalie Cooper
+        The Hideway Cooper Lake
       </a>
     </div>
   </MDBFooter> 

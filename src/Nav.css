@@ -72,6 +72,21 @@
     border: 2px solid #dc4c64;
 }
 
+.btn.btn-secondary{
+    background: #c74f2d;
+    border: 2px solid #c74f2d;
+    color:white;
+}
+
+.btn.btn-secondary:hover{
+    background: rgba(199, 79, 45, 0.7);
+    display:inline-block;
+    transition-duration: 0.4s;
+    border: 2px solid #c74f2d;
+    color:white
+}
+
+
 .btn.btn-primary{
     border: 2px solid #3b71ca;
 }

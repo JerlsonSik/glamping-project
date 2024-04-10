@@ -20,9 +20,9 @@ const HomeBannerFive = () => {
   }
 
   return ( 
-    <div class="px-4 my-5 text-center bg-white" id="site">
+    <div class="px-4 my-5 pb-3 text-center bg-white" id="site">
 
-      <h1 class="display-5 fw-bold">What Our Guest Said...</h1>
+      <h1 class="display-5 fw-bold">Happy Hideaway Guests</h1>
             
     <MDBContainer className="my-5">
     <MDBCarousel showControls dark>
@@ -36,13 +36,10 @@ const HomeBannerFive = () => {
           /> */}
           <MDBRow className="d-flex justify-content-center">
             <MDBCol lg="8">
-              <h5 className='mb-3'>Maria Kate</h5>
+              <h5 className='mb-3'>Meredith - Airbnb</h5>
               <p className="text-muted">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis,
-                quibusdam illo, beatae quia fugit consequatur laudantium velit
-                magnam error. Consectetur distinctio fugit doloremque.
+                If you are looking for a secluded spot with beautiful views and a fun experience, this is it!!!! The yurt was very clean and so cute!!! We had such a great time, we will definitely be back!
               </p>
             </MDBCol>
           </MDBRow>
@@ -74,11 +71,10 @@ const HomeBannerFive = () => {
           /> */}
           <MDBRow className="d-flex justify-content-center">
             <MDBCol lg="8">
-              <h5 className="mb-3">John Doe</h5>
+              <h5 className="mb-3">Ranya - Airbnb</h5>
               <p className="text-muted">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis.
+                Such an awesome getaway, a very unique experience being on a private lake with access to lake amenities. You have everything you need to glamp in a stunning campsite. The host was extremely friendly, went above and beyond to set up a special occasion gift for us! Looking forward to our next visit!
               </p>
             </MDBCol>
           </MDBRow>
@@ -110,13 +106,10 @@ const HomeBannerFive = () => {
           /> */}
           <MDBRow className="d-flex justify-content-center">
             <MDBCol lg="8">
-              <h5 className="mb-3">Anna Deynah</h5>
+              <h5 className="mb-3">Rasa A - Hipcamp</h5>
               <p className="text-muted">
                 <MDBIcon fas icon="quote-left" className="pe-2" />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                et deleniti nesciunt sint eligendi reprehenderit reiciendis,
-                quibusdam illo, beatae quia fugit consequatur laudantium velit
-                magnam error. Consectetur distinctio fugit doloremque.
+                We enjoyed our stay very much. The yurt was spacious, very clean and comfortable. The beauty and privacy of this site was unparalleled. Natalie has thought of everything to make the stay enjoyable. Loved the fishing and kayaking. Just bring food and drink and relax. Will be back.
               </p>
             </MDBCol>
           </MDBRow>

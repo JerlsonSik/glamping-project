@@ -9,16 +9,28 @@ const RoomBannerThree = () => {
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/Glamping-Site-1.png" class="d-block" alt="..." />
+                                    <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
                                 </div>
                                 <div class="carousel-item active">
-                                    <img src="/Bedroom-Image-1.jpg" class="d-block" alt="..." />
+                                    <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/Bedroom-Image-2.jpg" class="d-block" alt="..." />
+                                    <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/Bedroom-Image-3.png" class="d-block" alt="..." />
+                                    <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="/BedroomImage6.jpg" class="d-block" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/BedroomImage7.jpg" class="d-block" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -35,7 +47,7 @@ const RoomBannerThree = () => {
                     <div className="col-lg-7 align-self-center">
                         <div className="p-3">
                             <div className="my-3">
-                                <p className="fs-2 fw-bold">Glamping Site 1</p>
+                                <p className="fs-2 fw-bold">Round Room</p>
                             </div>                            
                             <table>
                             <tr>
@@ -91,15 +103,15 @@ const RoomBannerThree = () => {
                         </table>
                             <div className='mt-3 d-flex justify-content-between'>
                                 <div className='d-flex align-items-center'>
-                                    <a class="moredetails" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">More Details</a>
+                                    <a class="moredetails" data-bs-toggle="modal" data-bs-target="#exampleModalCenterthree">More Details</a>
                                 </div>
 
                                 {/* Anything below this is for modal */}
-                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal fade" id="exampleModalCenterthree" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Glamping Site 1</h5>
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Round Room</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-bs-label="Close">
                                                 </button>
                                             </div>
@@ -108,16 +120,28 @@ const RoomBannerThree = () => {
                                                 <div id="carouselExampleControlsinner" class="carousel slide" data-bs-ride="carousel">
                                                     <div class="carousel-inner">
                                                     <div class="carousel-item active">
-                                                        <img src="/Glamping-Site-1.png" class="d-block" alt="..." />
+                                                        <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
                                                     </div>
                                                     <div class="carousel-item active">
-                                                        <img src="/Bedroom-Image-1.jpg" class="d-block" alt="..." />
+                                                        <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="/Bedroom-Image-2.jpg" class="d-block" alt="..." />
+                                                        <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="/Bedroom-Image-3.png" class="d-block" alt="..." />
+                                                        <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/BedroomImage6.jpg" class="d-block" alt="..." />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/BedroomImage7.jpg" class="d-block" alt="..." />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
                                                     </div>
                                                     </div>
                                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsinner" data-bs-slide="prev">
@@ -130,7 +154,7 @@ const RoomBannerThree = () => {
                                                     </button>
                                                 </div>
                                                 <div className='mt-3'>
-                                                    <h3>Glamping Site 1</h3>
+                                                    <h3>Round Room</h3>
                                                     <p>Capactiy: 4  |  Bed: 1 King + 2 Queen  |  Size: 19ft</p>
                                                 </div>
                                                 <div className='fs-6'>

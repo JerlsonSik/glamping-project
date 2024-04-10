@@ -24,13 +24,13 @@ const NavAccomodation = () => {
         
 
         <div class="p-3 bg-image" style={{
-            backgroundImage: "url(/Cooper-Lake.webp)", height:"400px"
+            backgroundImage: "url(/CooperLakeHome.jpg)", height:"400px",backgroundPosition:"right 35% bottom 45%"
         }}>
             <div class="mask justify-content-center align-items-center" style={{backgroundColor: "#00000099"}}>
                 <nav class="navbar navbar-expand-lg navbar-dark shadow-none" style={{zIndex: "1"}}>
                     
                     <div class="container">
-                        <a class="navbar-brand" href="/home"><img alt="" src="./glamping.png" width="60" height="60"
+                        <a class="navbar-brand" href="/home"><img alt="" src="./logo.svg" width="100" height="100"
                         className="d-inline-block align-top" /></a>
 
                         <button
@@ -48,15 +48,9 @@ const NavAccomodation = () => {
                                     <a class="nav-link active" aria-current="page" href="/home">Home</a>
                                 </li>
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link active" href="/accomodation">Accomodation</a>
+                                    <a class="nav-link active" href="/cooperlake">Cooper Lake</a>
                                 </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link active" href="/site">Site</a>
-                                </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link active" href="/about">About</a>
-                                </li>
-                                <a href="https://booking.smoobu.com/9A749585"><button type='button' className='btn btn-primary ms-3' href="https://booking.smoobu.com/9A749585">Book Now</button></a>
+                                <a href="/booknow"><button type='button' className='btn btn-primary ms-3' href="/booknow">Book Now</button></a>
                             </ul>
                         </div>
 
@@ -70,15 +64,9 @@ const NavAccomodation = () => {
                                
                                     <a class="nav-link active" aria-current="page" href="/home">Home</a>
                                 
+                                    <a class="nav-link active" href="/cooperlake">Cooper Lake</a>
                                 
-                                    <a class="nav-link active" href="/accomodation">Accomodation</a>
-                                
-                                
-                                    <a class="nav-link active" href="/site">Site</a>
-
-                                    <a class="nav-link active" href="/about">About</a>
-                                
-                                    <a href="https://booking.smoobu.com/9A749585"><button type='button' className='btn btn-primary' href="https://booking.smoobu.com/9A749585">Book Now</button></a>
+                                    <a href="/booknow"><button type='button' className='btn btn-primary' href="/booknow">Book Now</button></a>
                                 
                                 
                             </div>
@@ -90,8 +78,8 @@ const NavAccomodation = () => {
 
                 <div class="d-flex justify-content-center align-items-center mt-5">
                     <div class="text-white text-center">
-                    <h1 class="mb-3 display-3">Accomoodation</h1>
-                    <p class="mb-4">There are three different "room" in our site, and every of them are special.</p>
+                    <h1 class="mb-3 display-3">Book Now</h1>
+                    {/* <p class="mb-4">There are three different "room" in our site, and every of them are special.</p> */}
                     </div>
                 </div>
             </div>
