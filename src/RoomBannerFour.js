@@ -10,9 +10,6 @@ const RoomBannerFour = () => {
                         
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
-                            </div>
-                            <div class="carousel-item active">
                                 <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
                             </div>
                             <div class="carousel-item">
@@ -32,6 +29,12 @@ const RoomBannerFour = () => {
                             </div>
                             <div class="carousel-item">
                                 <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/BedroomImage12.jpg" class="d-block" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/BedroomImage14.jpg" class="d-block" alt="..." />
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsfour" data-bs-slide="prev">
@@ -122,30 +125,33 @@ const RoomBannerFour = () => {
                                                 {/* Anything below this is for modal */}
                                                 <div id="carouselExampleControlsinner4" class="carousel slide" data-bs-ride="carousel">
                                                     <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item active">
-                                                        <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage6.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage7.jpg" class="d-block" alt="..." />
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
-                                                    </div>
+                                                        <div class="carousel-item active">
+                                                            <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item active">
+                                                            <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item active">
+                                                            <img src="/BedroomImage6.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage7.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage12.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage14.jpg" class="d-block" alt="..." />
+                                                        </div>
                                                     
                                                     </div>
                                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsinner4" data-bs-slide="prev">

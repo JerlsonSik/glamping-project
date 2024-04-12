@@ -9,7 +9,7 @@ const HomeBannerEight = () => {
             <p className="text-center">A private,
             winding lane leads you to Cooper Lake, our family owned and operated property designed for children and adults, alike. “Unplug” during your stay – but do so with many of
             the comforts of a traditional hotel! If you're enticed by the idea of camping,but don't want to deal with the work that comes with it, glamping (or glamorous camping) is the perfect
-            compromis
+            compromise.
             </p>
         </div>
             <div className="d-flex justify-content-center align-items-center bg-light pt-3 pb-5">
@@ -21,7 +21,7 @@ const HomeBannerEight = () => {
                             <div class="d-flex justify-content-center align-items-center h-100 text-white">
                                 <div className="text-center">
                                     <h1>Cooper Lake</h1>
-                                    <p>Embrace the outdoor</p>
+                                    <p>Embrace the outdoors</p>
                                     <a class="btn btn-primary btn-lg m-2 fw-bold" href="/cooperlake"
                                     role="button" rel="nofollow">Learn More</a>
                                 </div>

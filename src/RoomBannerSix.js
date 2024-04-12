@@ -10,16 +10,16 @@ const RoomBannerSix = () => {
                         
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
+                                <img src="/BedroomImage9.jpg" class="d-block" alt="..." />
                             </div>
                             <div class="carousel-item active">
-                                <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
+                                <img src="/BedroomImage10.jpg" class="d-block" alt="..." />
                             </div>
                             <div class="carousel-item">
-                                <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
+                                <img src="/BedroomImage11.jpg" class="d-block" alt="..." />
                             </div>
                             <div class="carousel-item">
-                                <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
+                                <img src="/BedroomImage13.jpg" class="d-block" alt="..." />
                             </div>
                             <div class="carousel-item active">
                                 <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
@@ -33,8 +33,12 @@ const RoomBannerSix = () => {
                             <div class="carousel-item">
                                 <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
                             </div>
-                            
-                            
+                            <div class="carousel-item">
+                                <img src="/BedroomImage12.jpg" class="d-block" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/BedroomImage14.jpg" class="d-block" alt="..." />
+                            </div>
                             
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlssix" data-bs-slide="prev">
@@ -126,28 +130,34 @@ const RoomBannerSix = () => {
                                                 <div id="carouselExampleControlsinner6" class="carousel slide" data-bs-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="carousel-item active">
-                                                            <img src="/BedroomImage1.jpg" class="d-block" alt="..." />
+                                                            <img src="/BedroomImage9.jpg" class="d-block" alt="..." />
                                                         </div>
                                                         <div class="carousel-item active">
-                                                            <img src="/BedroomImage2.jpg" class="d-block" alt="..." />
+                                                            <img src="/BedroomImage10.jpg" class="d-block" alt="..." />
                                                         </div>
                                                         <div class="carousel-item">
-                                                            <img src="/BedroomImage3.jpg" class="d-block" alt="..." />
+                                                            <img src="/BedroomImage11.jpg" class="d-block" alt="..." />
                                                         </div>
                                                         <div class="carousel-item">
-                                                            <img src="/BedroomImage4.jpg" class="d-block" alt="..." />
+                                                            <img src="/BedroomImage13.jpg" class="d-block" alt="..." />
                                                         </div>
-                                                        <div class="carousel-item">
+                                                        <div class="carousel-item active">
                                                             <img src="/BedroomImage5.jpg" class="d-block" alt="..." />
                                                         </div>
                                                         <div class="carousel-item active">
                                                             <img src="/BedroomImage6.jpg" class="d-block" alt="..." />
                                                         </div>
-                                                        <div class="carousel-item active">
+                                                        <div class="carousel-item">
                                                             <img src="/BedroomImage7.jpg" class="d-block" alt="..." />
                                                         </div>
-                                                        <div class="carousel-item active">
+                                                        <div class="carousel-item">
                                                             <img src="/BedroomImage8.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage12.jpg" class="d-block" alt="..." />
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img src="/BedroomImage14.jpg" class="d-block" alt="..." />
                                                         </div>
                                                     </div>
                                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsinner6" data-bs-slide="prev">
